@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADUM4160BRIZ
+D ADUM4160BRIZ
+F http://www.analog.com/static/imported-files/data_sheets/ADuM4160.pdf
+$ENDCMP
+# end doc library

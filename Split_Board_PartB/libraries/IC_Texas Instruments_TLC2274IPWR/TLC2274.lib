@@ -1,0 +1,108 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments TLC2274IPWR
+#
+DEF TLC2274IPWR U 0 40 Y Y 4 L N
+F0 "U" 0 300 50 H V L CNN 
+F1 "TLC2274IPWR" 0 400 50 H V L CNN 
+F2 "Texas_Instruments-TLC2274IPWR-*" 0 500 50 H I L CNN 
+F3 "http://www.ti.com/lit/ds/symlink/tlc2274.pdf" 0 600 50 H I L CNN 
+F4 "70" 0 700 50 H I L CNN "CMRR Mind B"
+F5 "" 0 800 50 H I L CNN "Channel"
+F6 "MO-153" 0 900 50 H I L CNN "Code  JEDEC"
+F7 "Manufacturer URL" 0 1000 50 H I L CNN "Component Link 1 Description"
+F8 "http://www.ti.com/" 0 1100 50 H I L CNN "Component Link 1 URL"
+F9 "Package Specification" 0 1200 50 H I L CNN "Component Link 3 Description"
+F10 "http://www.ti.com/litv/pdf/mpds360" 0 1300 50 H I L CNN "Component Link 3 URL"
+F11 "SLOS190G" 0 1400 50 H I L CNN "Datasheet Version"
+F12 "Green (RoHS & no Sb/Br)" 0 1500 50 H I L CNN "Eco  Plan"
+F13 "2.18" 0 1600 50 H I L CNN "GBW Typ MHz"
+F14 "" 0 1700 50 H I L CNN "Gain Bandwidth"
+F15 "60" 0 1800 50 H I L CNN "IIB Maxp A"
+F16 "1.5" 0 1900 50 H I L CNN "Iq per channelMaxmA"
+F17 "Surface Mount" 0 2000 50 H I L CNN "Mounting Technology"
+F18 "4" 0 2100 50 H I L CNN "Number of Channels"
+F19 "2" 0 2200 50 H I L CNN "Offset DriftTypuVC"
+F20 "14-Pin Plastic Small Outline, Body 5 x 4.4 mm, Pitch 0.65 mm" 0 2300 50 H I L CNN "Package Description"
+F21 "4040064-3/G, 02/2011" 0 2400 50 H I L CNN "Package Version"
+F22 "LARGE T&R" 0 2500 50 H I L CNN "Packing"
+F23 "Catalog" 0 2600 50 H I L CNN "Rating"
+F24 "" 0 2700 50 H I L CNN "Slew Rate"
+F25 "3.6" 0 2800 50 H I L CNN "Slew RateTypVus"
+F26 "Low Noise Amp (<=10nV/rtHz), Precision Amplifier" 0 2900 50 H I L CNN "Sub Family"
+F27 "" 0 3000 50 H I L CNN "Supply Voltage Max"
+F28 "" 0 3100 50 H I L CNN "Supply Voltage Min"
+F29 "" 0 3200 50 H I L CNN "Temperature Max"
+F30 "" 0 3300 50 H I L CNN "Temperature Min"
+F31 "16" 0 3400 50 H I L CNN "Total Supply VoltageMax5V is 5  5V is 10"
+F32 "4.4" 0 3500 50 H I L CNN "Total Supply VoltageMin5V is 5  5V is 10"
+F33 "2.5" 0 3600 50 H I L CNN "Vio 25CMaxmV"
+F34 "" 0 3700 50 H I L CNN "Vmax V"
+F35 "" 0 3800 50 H I L CNN "Vmin V"
+F36 "" 0 3900 50 H I L CNN "Vn at 1kHzTypnVrtHz"
+F37 "IC" 0 4000 50 H I L CNN "category"
+F38 "1321349" 0 4100 50 H I L CNN "ciiva ids"
+F39 "1148559c6fc76d36" 0 4200 50 H I L CNN "library id"
+F40 "Texas Instruments" 0 4300 50 H I L CNN "manufacturer"
+F41 "PW0014A" 0 4400 50 H I L CNN "package"
+F42 "1464311636" 0 4500 50 H I L CNN "release date"
+F43 "CE5A5B00-0A2A-454F-A61B-DF4F9DE165B6" 0 4600 50 H I L CNN "vault revision"
+F44 "yes" 0 4700 50 H I L CNN "imported"
+DRAW
+X OUT1 1 600 -100 100 L 40 0 1 1 O 
+X IN1- 2 0 0 100 R 40 0 1 1 I 
+X IN1+ 3 0 -200 100 R 40 0 1 1 I 
+X VDD+ 4 300 200 100 D 40 0 1 1 W 
+X VDD- 11 300 -400 100 U 40 0 1 1 W 
+P 2 1 1 0 100 100 500 -100 N
+P 2 1 1 0 100 -300 500 -100 N
+P 2 1 1 0 100 100 100 -300 N
+P 2 1 1 0 300 -200 300 -300 N
+P 2 1 1 0 140 0 200 0 N
+P 2 1 1 0 140 -200 200 -200 N
+P 2 1 1 0 170 -170 170 -230 N
+P 2 1 1 0 300 100 300 0 N
+X IN2+ 5 0 -200 100 R 40 0 2 1 I 
+X IN2- 6 0 0 100 R 40 0 2 1 I 
+X OUT2 7 600 -100 100 L 40 0 2 1 O 
+X VDD+ 4 300 200 100 D 40 0 2 1 W 
+X VDD- 11 300 -400 100 U 40 0 2 1 W 
+P 2 2 1 0 100 100 500 -100 N
+P 2 2 1 0 100 -300 500 -100 N
+P 2 2 1 0 100 100 100 -300 N
+P 2 2 1 0 300 -200 300 -300 N
+P 2 2 1 0 140 0 200 0 N
+P 2 2 1 0 140 -200 200 -200 N
+P 2 2 1 0 170 -170 170 -230 N
+P 2 2 1 0 300 100 300 0 N
+X OUT3 8 600 -100 100 L 40 0 3 1 O 
+X IN3- 9 0 0 100 R 40 0 3 1 I 
+X IN3+ 10 0 -200 100 R 40 0 3 1 I 
+X VDD+ 4 300 200 100 D 40 0 3 1 W 
+X VDD- 11 300 -400 100 U 40 0 3 1 W 
+P 2 3 1 0 100 100 500 -100 N
+P 2 3 1 0 100 -300 500 -100 N
+P 2 3 1 0 100 100 100 -300 N
+P 2 3 1 0 300 -200 300 -300 N
+P 2 3 1 0 140 0 200 0 N
+P 2 3 1 0 140 -200 200 -200 N
+P 2 3 1 0 170 -170 170 -230 N
+P 2 3 1 0 300 100 300 0 N
+X IN4+ 12 0 -200 100 R 40 0 4 1 I 
+X IN4- 13 0 0 100 R 40 0 4 1 I 
+X OUT4 14 600 -100 100 L 40 0 4 1 O 
+X VDD+ 4 300 200 100 D 40 0 4 1 W 
+X VDD- 11 300 -400 100 U 40 0 4 1 W 
+P 2 4 1 0 100 100 500 -100 N
+P 2 4 1 0 100 -300 500 -100 N
+P 2 4 1 0 100 100 100 -300 N
+P 2 4 1 0 300 -200 300 -300 N
+P 2 4 1 0 140 0 200 0 N
+P 2 4 1 0 140 -200 200 -200 N
+P 2 4 1 0 170 -170 170 -230 N
+P 2 4 1 0 300 100 300 0 N
+ENDDRAW
+ENDDEF
+#
+# End Library
