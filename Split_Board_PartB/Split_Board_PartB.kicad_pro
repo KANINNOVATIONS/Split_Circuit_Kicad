@@ -458,7 +458,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/91959/Desktop/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -479,6 +479,10 @@
     [
       "f90fdeed-6643-4770-942c-6bfcb784a033",
       "MUX_SECTION"
+    ],
+    [
+      "7845fef2-53d4-4305-b651-11508440e42d",
+      "Extension board"
     ],
     [
       "8c0b34d7-0042-45d2-9286-12081a79de7a",

@@ -14,6 +14,23 @@
   )
 
 
+  (sheet (at 90.17 223.52) (size 63.5 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7845fef2-53d4-4305-b651-11508440e42d)
+    (property "Sheetname" "Extension board" (at 90.17 222.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Adapter_board.kicad_sch" (at 90.17 254.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Split_Board_PartB"
+        (path "/e2d56ecd-77dd-4fed-8d81-4a7d32aa0989" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 91.44 182.245) (size 60.96 30.48) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
