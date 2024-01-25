@@ -13287,7 +13287,7 @@
     (property "Value" "100PF" (at 83.82 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 87.63 78.4098 0)
+    (property "Footprint" "SamacSys_Parts:522072833" (at 87.63 78.4098 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 79.375 0)
